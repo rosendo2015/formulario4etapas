@@ -21,84 +21,88 @@
 </head>
 
 <body>
-  <!-- Sidebar start -->
-  <header>
-    <nav>
-      <ul>
-        <li>
-          <div class="step-fase">
-            <span>1</span>
-          </div>
-          <div class="step-descriptiom">
-            <p>Step 1</p>
-            <p>Your info</p>
-          </div>
-        </li>
-        <li>
-          <div class="step-fase">
-            <span>2</span>
-          </div>
-          <div class="step-descriptiom">
-            <p>Step 2</p>
-            <p> Select plan</p>
-          </div>
-        </li>
-        <li>
-          <div class="step-fase">
-            <span>3</span>
-          </div>
-          <div class="step-descriptiom">
-            <p>Step 3</p>
-            <p>Add-ons</p>
-          </div>
-        </li>
-        <li>
-          <div class="step-fase">
-            <span>4</span>
-          </div>
-          <div class="step-descriptiom">
-            <p>Step 4</p>
-            <p>Summary</p>
-          </div>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  
-  <!-- Sidebar end -->
-  <main>
-    
-    <div id="app"></div>
-    
-  </main>
-  <div class="containner">
-  <footer>
-    
+  <div class="page">
 
-      <div class="rota-step-1">
-        <a class="button" href="/step2" onclick="route()"> Next Step </a>
-      </div>
-      <div class="rota-step-2 hide">
-        <a class="link" href="/step1" onclick="route()"> Go Back </a>
-        <a class="button" href="/step3" onclick="route()"> Next Step </a>
-      </div>
-      <div class="rota-step-3 hide">
-        <a class="link" href="/step3" onclick="route()"> Go Back </a>
-        <a class="button" href="/step4" onclick="route()"> Next Step </a>
-      </div>
-      <div class="rota-step-4 hide">
-        <a class="link" href="/step4" onclick="route()"> Go Back </a>
-        <a class="button" href="/step5" onclick="route()"> Confirm </a>
-      </div>
+    <!-- Sidebar start -->
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <div class="step-phase">
+              <span class="sel1 one">1</span>
+            </div>
+            <div class="step-descriptiom">
+              <p>Step 1</p>
+              <p>Your info</p>
+            </div>
+          </li>
+          <li>
+            <div class="step-phase">
+              <span class="sel2">2</span>
+            </div>
+            <div class="step-descriptiom">
+              <p>Step 2</p>
+              <p> Select plan</p>
+            </div>
+          </li>
+          <li>
+            <div class="step-phase">
+              <span class="sel3 ">3</span>
+            </div>
+            <div class="step-descriptiom">
+              <p>Step 3</p>
+              <p>Add-ons</p>
+            </div>
+          </li>
+          <li>
+            <div class="step-phase">
+              <span class="sel4">4</span>
+            </div>
+            <div class="step-descriptiom">
+              <p>Step 4</p>
+              <p>Summary</p>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-   
+    <!-- Sidebar end -->
+    <main>
+
+      <div id="app"></div>
+
+    </main>
+    <footer>
+      <div class="container-rotas">
+        <div class="center">
+
+          <div class="wrapper-rotas">
+            <div class="rota-step-1">
+              <a class="buttonS1" href="/step2" onclick="route()"> Next Step </a>
+            </div>
+            <div class="rota-step-2 hide">
+              <a class="link" href="/step1" onclick="route()"> Go Back </a>
+              <a class="buttonS2" href="/step3" onclick="route()"> Next Step </a>
+            </div>
+            <div class="rota-step-3 hide">
+              <a class="link" href="/step2" onclick="route()"> Go Back </a>
+              <a class="buttonS3" href="/step4" onclick="route()"> Next Step </a>
+          </div>
+          <div class="rota-step-4 hide">
+            <a class="link" href="/step3" onclick="route()"> Go Back </a>
+            <a class="buttonS4" href="/step5" onclick="route()"> Confirm </a>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/rosendo2015/formulario4etapas">Francisco Rosendo</a>.
-    </div>
-  </footer>
+
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/rosendo2015/formulario4etapas">Francisco Rosendo</a>.
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>

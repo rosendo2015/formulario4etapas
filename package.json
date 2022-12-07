@@ -1,0 +1,23 @@
+{
+  "name": "multi-step-form-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Multi-step form coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosendo2015/formulario4etapas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosendo2015/formulario4etapas/issues"
+  },
+  "homepage": "https://github.com/rosendo2015/formulario4etapas#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

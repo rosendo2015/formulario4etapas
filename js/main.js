@@ -8,5 +8,5 @@ router.add("/step4", "/pages/step4.html")
 router.add("/step5", "/pages/step5.html")
 
 router.handle() //mostrar o conteudo do index
-window.onpopstate = () => handle() //para ativar a navegação pelas cetas do navegador
+window.onpopstate = () => router.handle() //para ativar a navegação pelas cetas do navegador
 window.route = () => router.route()
