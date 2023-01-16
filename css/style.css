@@ -31,7 +31,8 @@ body {
     background: var(--Light-gray);
     font-family: 'Ubuntu', sans-serif;
 }
-main::before {
+
+header::before {
     content: '';
     width: 100%;
     height: 200px;
@@ -289,7 +290,8 @@ nav ul li .step-phase .one {
     text-decoration: none;
 
 }
-footer{
+
+footer {
     position: fixed;
     left: 0;
     right: 0;
@@ -361,3 +363,4 @@ footer{
 .hide {
     display: none;
 }
+
