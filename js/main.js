@@ -1,7 +1,7 @@
 import { Router } from "./routes.js"
 const router = new Router()
 
-router.add("/step1", "/pages/step1.html")
+router.add("/", "/pages/step1.html")
 router.add("/step2", "/pages/step2.html")
 router.add("/step3", "/pages/step3.html")
 router.add("/step4", "/pages/step4.html")
